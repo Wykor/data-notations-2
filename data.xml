@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<software>
+    <software_item name="Windows 10" release_year="2015">
+        <feature>Operating System</feature>
+        <license>Proprietary</license>
+        <architecture>x64</architecture>
+        <price>$139</price>
+    </software_item>
+    <software_item name="LibreOffice" release_year="2010">
+        <feature>Office Suite</feature>
+        <license>Open Source</license>
+        <architecture>Multi-platform</architecture>
+        <price>Free</price>
+    </software_item>
+    <software_item name="VLC Media Player" release_year="2001">
+        <feature>Media Player</feature>
+        <license>Open Source</license>
+        <architecture>Multi-platform</architecture>
+        <price>Free</price>
+    </software_item>
+</software>
