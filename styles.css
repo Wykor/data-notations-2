@@ -41,3 +41,45 @@
 .hover-link:hover {
     background-color: blue; /* Change background color to blue */
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 1cm;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
