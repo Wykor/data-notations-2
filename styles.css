@@ -1,0 +1,43 @@
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-header {
+    color: green;
+}
+
+#styled-paragraph {
+    text-align: justify; /* Align the text on both sides */
+    font-style: italic;  /* Make the text italic */
+    margin-top: 1cm;     /* 1cm margin at the top */
+    margin-bottom: 1cm;  /* 1cm margin at the bottom */
+    width: 100%;         /* Full width of the page */
+}
+
+/* Container for the columns */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of columns on smaller screens */
+    gap: 20px; /* Space between the columns */
+    margin: 20px;
+}
+
+/* Style for each column */
+.column {
+    flex: 1 1 45%; /* 45% width on larger screens, it can grow or shrink */
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 100%; /* Columns take full width on smaller screens */
+    }
+}
+
+/* Background color change when hovering over the link */
+.hover-link:hover {
+    background-color: blue; /* Change background color to blue */
+}
