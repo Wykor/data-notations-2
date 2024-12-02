@@ -130,3 +130,26 @@ body {
 .link:hover {
     text-decoration: underline;
 }
+
+.images-title {
+    margin-bottom: 1cm;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1cm;
+    padding: 1cm;
+}
+
+/* Styles for each image */
+.image-container img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #000;
+    object-fit: cover;
+}
+
+.image-container a {
+    display: inline-block;
+}
