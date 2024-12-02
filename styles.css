@@ -43,6 +43,8 @@ label {
 
 .cancel-btn {
     background-color: orange;
+}
+
 #main-div {
     display: flex;
     flex-direction: column;
